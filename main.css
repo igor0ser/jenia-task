@@ -1,0 +1,40 @@
+body {
+	background: #333;
+	color: #fff;
+	font-family: Calibri;
+
+}
+
+h1{
+	animation: anim 50s infinite linear;
+	float: left;
+	margin-left: 20px;
+}
+
+.header {
+	animation: anim 50s infinite linear;
+}
+
+@keyframes anim{
+	from {
+		color: white;
+	}
+	to {
+		color: gold;
+	}
+}
+
+.smile {
+	animation: anim2 10s infinite linear;
+	transform-origin: center center;
+
+}
+@keyframes anim2{
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+} 
+
